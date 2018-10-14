@@ -68,7 +68,6 @@ contract("DTwitter contract", function () {
     assert.equal(exists, true);
   });
 
-
   it("should be able to edit 'testhandle' user details", async function () {
     const usernameHash = web3.utils.keccak256(username);
     const updatedDescription = description + ' edited';
